@@ -1,0 +1,164 @@
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "roboto";
+}
+body{
+  background-color: black;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .homepage_container{
+    height: 100%;
+    width: 70%;
+    background-image: url(/Images/bg3.jpg);
+    background-size: cover;
+  }
+    .intro_container{
+      display: flex;
+      height: 30%;
+    }
+    .name_photo{
+      position: relative;
+      width: 50%;
+    }
+      #Profile_photo{
+        width: 300px;
+        max-width: 500px;
+        margin-top: 22px;
+        margin-left: 22px;
+        margin-bottom: 22px;
+      }
+      
+      .name{
+        position: absolute;
+        top: 75%;
+        left: 25%;
+        font-size: 2.2rem;
+        color: #bae6fd;
+        font-weight: 800;
+        font-family: "roboto";
+      }
+
+    .intro_text{
+      display: flex;
+      flex-direction: column;
+      height: 262px;
+      min-height: 250px;
+      max-height: 300px;
+      width: 90%;
+      background-color: #f1f5f9;
+      margin-top: 3.5rem;
+      margin-right: 7rem;
+      gap: 5px;
+      }
+        .aboutMe_heading{
+          padding-top: 1.5rem;
+          padding-left: 1em;
+          font-family: "roboto";
+          font-weight: 800;
+        }
+        .aboutMe_text{
+          padding-left: 1em;
+          padding-right: 1em;
+          font-size: 1rem;
+          line-height: 1.5rem;
+        
+        }
+        .logo_container{
+          display: flex;
+          justify-content: end;
+          gap: 5px;
+          padding: 10px;
+        }
+.project_container{
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem;
+  height: 650px;
+}
+  .project_heading{
+    margin-left: 1.5rem;
+  }
+  .project_row1{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    
+  }
+    .project{
+      width: 40%;
+      height: 70%;
+      height: 340px;
+    }
+      .project_img{
+        height: 60%;
+        width: 100%;
+        
+      }
+      .project_discription{
+        height: 100px;
+        border: 1px solid;
+        box-shadow: #161819;
+      }
+        .projectTiltle_container{
+          display: flex;
+          gap: 8rem;
+        }
+          h3{
+            padding: 5px;
+            margin-left: 10px;
+            font-size: medium;
+          }
+          .project_detail{
+            padding:0;
+            padding-left: 1em;
+            font-size: 0.8rem;
+          }
+          .title_logo{
+            padding: 7px;
+            
+          }
+
+  .project_row2{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+.contactUs_container{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  display: flex;
+  background-color: #0c4a6e;
+ 
+}
+  .contactUs_msg{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-left: 3rem;
+    margin: 3rem;
+  }
+    .adress_text{
+      margin-left: 0;
+      padding: 0;
+    }
+    .contactNumber_container{
+      display: flex;
+      gap: 10px;
+    }
+    .email_container{
+      display: flex;
+      gap: 10px;
+    }
+#contactUs_img{
+  height: 17rem;
+  width: 45%;
+  margin: 5rem;
+  margin-top: 3rem;
+  margin-right: 7rem;
+  margin-left: 3rem;
+}
